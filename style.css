@@ -627,8 +627,8 @@ nav a:hover {
     text-decoration: none; /* Removes the underline from the link */
     color: #ffffff; /* White text color */
     background-color: #1A574D; /* A solid blue background */
-    border: 5px solid #ffffff; /* A matching border */
-    border-radius: 10px; /* Slightly rounded corners */
+    border: 2px solid #ffffff; /* A matching border */
+    border-radius: 5px; /* Slightly rounded corners */
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
 }
 
