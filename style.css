@@ -611,3 +611,30 @@ nav a:hover {
 .section-bg{
     text-align: center;
 }
+
+
+
+
+
+
+  /* Basic Button Styling */
+.btn {
+    display: inline-block; /* Allows padding and margins */
+    padding: 12px 24px; /* Space inside the button */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; /* Removes the underline from the link */
+    color: #ffffff; /* White text color */
+    background-color: #1A574D; /* A solid blue background */
+    border: 2px solid #1A574D; /* A matching border */
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect */
+.btn:hover {
+    background-color: #A02754; /* Darker blue on hover */
+    border-color: #A02754;
+    cursor: pointer; /* Changes the cursor to a hand on hover */
+}      
