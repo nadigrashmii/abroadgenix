@@ -640,3 +640,10 @@ nav a:hover {
 }      
 
 
+
+/* Quick fix to check visibility */
+.btn {
+    display: block !important;
+    position: relative !important;
+    z-index: 999 !important;
+}
